@@ -1,0 +1,224 @@
+    <div id="nav-wrap">
+		<div id="nav-border-top">
+			<div id="nav-border-bottom">
+				<div class="container">
+					<table>
+						<tbody><tr>
+							<td id="logo"><span class="wsite-logo"><a href="/"><span id="wsite-title">ServerNameGenerator</span></a></span></td>
+						</tr>
+					</tbody></table>
+				</div><!-- end container -->
+			</div><!-- end nav-border-bottom -->
+		</div><!-- end nav-border-top -->
+    </div><!-- end nav-wrap -->
+
+    <div id="banner-wrap">
+        <div class="container">
+            <div id="banner">
+            
+                <div style="clear:both;"></div>
+            
+            </div><!-- end banner -->
+        </div><!-- end container -->
+    </div><!-- end banner-wrap -->
+
+    <div id="main-wrap">
+        <div class="container">
+			<div class="inner-container">
+				<div id="wsite-content" class="wsite-not-footer">
+<div><div id="323795016407374979" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">	
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Generate free minecraft server titles/names here at the Automatic Minecraft Server Name Generator">
+	
+	
+	
+	<!-- The Generator script. You can move the script to an external file for better overview -->
+	<script type="text/javascript">	
+	
+		function generator(){
+			// Add your own words to the wordlist. Be carefull to obey the showed syntax
+			
+var wordlist1 = ["Kingdom","Kingdoms","Survival","City","Town","Village","Zombie","Creeper",
+"Ghast","Blaze","Nether","Skeleton","Elite","Awesome","Cool","Gold",
+"Epic","Dungeon","Cow","Pig","Raid","Battle","Brawl","Castle",
+"Fort","Fortress","Green","Archer","Hardcore","Shady","Massive","Colossal",
+"Giant","Waffle","Pancake","Lava","Magma","Water","Obsidian","Wood",
+"Dirt","Bedrock","Stone","Cryptic","Hunger","Mine","Mystic","Ender",
+"Roleplay","RPG","Wicked","Army","Ultimate","Emerald","Conflict","Ore",
+"Legendary","Legends","Legend","Venomous","Poison","Combat","Apocalypse","Apocalyptic",
+"Raiding","Grief","Griefing","Industrial","Machine","Robot","Economy","Unreal",
+"My","Cake","Beef","Pork","Porkchop","Standard","Redstone","Gold",
+"Diamond","Diamonds","Iron","Build","Construct","Construction","Home","House",
+"Craft","Noble","Shadow","Havoc","Chaos","Madness","Sparta","Spartan",
+"Spartans","Reflex","Storm","Sky","Cube","Infinite","Infinity","Hyper",
+"Hero","Mine","Miner","Miners", "Robotic","Advanced","Pro","Professional",
+"Royal","Winter","Quest","Simple","Evil","Miracle","Rainbow","Fun",
+"Modded","Freedom","Anarchy","Deadly","LOL","Lol","Gladiator","Warrior",
+"Adventure","Adventurer","Dream","Nightmare","Sandstone","Legacy","Storm","Galactic",
+"Nexus","Nuclear","Atomic","Nuke","Blitz","Spooky","Ghost","Supernatural",
+"Paranormal","Haunted","Haunt","Crimson","Brutal","Dusk","Dawn","Night",
+"Day","Rage","Tactical","Evil","Sinister",
+"Nyan","Funky","Doom","Legit","Dark","Amnesia","Enderman","Epik",
+"Dragon","Enderdragon","Nether","Aether","Technology","Rad","Factions","Techno",
+"Faction","Uber","Super","Best","Prime","1337",
+"Super","Legit","Unique","Industry","Industrial","Wither","Craft","Troll","Raze",
+"Destroy","Evil","Sinister","Storm","Construct","Survival","Survive","Hope","Hopeless",
+"Sheep","Wool","Factory","Future","Modern","Prehistoric","Kingdom","Derp","Strange",
+"Eerie","Creep","Creepy","Waffle","Assault","Everything","All-in-one","Prison","High-Tech","RPG","Roleplay",
+"Magic","Dark","Darkness","Insane","Tech","Technology","Smart","Island","Desert","Jungle","Forest",
+"Biome","Villager","Secure","Insecure","Security","Freedom","Fun","Infinite","Infinity","Unlimited",
+"Limited","Universe","Twilight","Dub","Dubstep","Subliminal","Electronic","Electro","Rock","Stone",
+"Urban","Danger","Dangerous","Disaster","Modded","Vanilla","Chocolate","Imagine","Imagination",
+"Metro","Apocalypse","Apoc","Post-Apoc","Apocalyptic","Undead","Post-Apocalyptic","Tree","Block","Brick",
+"Place","Uber","Outrageous","Outstanding","Grief","Griefer","Griefers","Griefer's","TNT","Innocent",
+"Dream","Nightmare","Killer","Pasta","Legends","Knight","Warrior","Archer","Halo",
+"FPS","Lava","Magma","Hell","Minecart","Cart","Shop","Economy","Food","Shelter","Hunt","Wilderness",
+"Unknown","Assassin","Murder","Massacre","Free",
+"Blocky","Funny","Military","Death","Epicness","Original","MC",];
+			
+var wordlist2 = ["Craft","Build","Haven","Heaven","Realm","Realms","World",
+"Worlds","Land","Lands","Kingdom","MC",
+"PvP","Raid","PvP/Raid","Nation","Freebuild",
+"Gasm","Wars","Server","Tekkit","Bukkit",
+"Games","Survival","Vanilla","Games","Survival",
+"Kingdoms","Skyblock","Island","Society","Roleplay",
+"RPG","Legends","Empire","Siege","Warzone",
+"Time","Adventure","Adventures","Scape","Outpost",
+"Creative","Hardcore","sVanilla","Factions","CTF",
+"McMMO","PvE","Economy","Assault","Hell","Army","Lands","Legion","Clan","Club","Worlds","Universe",
+"Galaxy","Dimension","Town","City","Dimensions","Islands","Mining","Mine","Factions",]
+			
+			// Random numbers are made 
+			var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+			var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+			var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2];			
+			
+			//alert(name); //Remove first to slashes to alert the name
+			
+			//If there's already a name it is removed  
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+			// A div element is created to show the generated name. The Name is added as a textnode. Textnode is added to the placeholder.
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}		
+	</script>
+	
+	
+	
+	<!-- Stylesheet. Change styles here. You can move the stylesheet to a extern file for better overview -->
+	<style type="text/css">
+		body{font-family: PT Sans Caption;}
+		#wrapper{border-left:1px solid #cccccc;border-right:1px solid #cccccc;margin:0 auto;padding: 0 20px;width: 700px}
+		#generator{background:#e9f3f6;border:1px solid #cccccc;margin:30px 0;font-size:28px;font-weight:bold;padding:50px 0 20px;text-align:center;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+		#generator input{font-size:16px;font-weight:normal;margin-top: 30px}
+		#footer{font-size: 10px; color: #999; margin: 30px 0 0 0;}
+		#footer a{color:#999}
+	</style>
+	
+	
+
+
+	<div id="wrapper">
+		
+		<!-- Change the text to your needs -->
+		<h1><font face="Minecraft">Automatic Minecraft Server Name Generator</font></h1>
+		<p>Generate random Minecraft server names here. Generator Verison : 1.2
+		</p>
+		
+		
+		<!-- The generator result and button. Change text on the button by changing button value. Be carefull changing ID's in this part -->
+		<div id="generator">
+			<div id="placeholder"><div id="result">Nuclear Craft</div></div>
+			<input type="button" value="Generate" onclick="generator()">		
+		</div>
+		
+		<!--  Change the text to your needs -->
+		
+		<!-- The footer. Place any contact info ect here.-->
+		<div id="footer">
+		<p>Copyright © Toby 2016.
+		</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+</div></div>
+
+			</div>
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap">
+		<div id="footer-inner-wrap">
+			<div class="container">
+
+	@font-face {
+		font-family: 'ProximaNova';
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Light/267447_4_0.eot');
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Light/267447_4_0.eot?#iefix') format('embedded-opentype'),
+		     url('//cdn2.editmysite.com/fonts/Proxima-Light/267447_4_0.woff') format('woff'),
+		     url('//cdn2.editmysite.com/fonts/Proxima-Light/267447_4_0.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'ProximaNova';
+		font-weight: bold;
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.eot');
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.eot?#iefix') format('embedded-opentype'),
+		     url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.woff') format('woff'),
+		     url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'ProximaNova-Semibold';
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.eot');
+		src: url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.eot?#iefix') format('embedded-opentype'),
+		url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.woff') format('woff'),
+		url('//cdn2.editmysite.com/fonts/Proxima-Semibold/267447_5_0.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'wicons';
+		src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.eot?buildTime=1455143158);
+		src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.eot?buildTime=1455143158#iefix) format('embedded-opentype'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.woff?buildTime=1455143158) format('woff'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.ttf?buildTime=1455143158) format('truetype'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.svg?buildTime=1455143158#wicons) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	/* Hack to smooth out font rendering on Chrome for Windows */
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		@font-face {
+			font-family: 'wicons';
+			src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.svg?buildTime=1455143158#wicons) format('svg');
+		}
+	}
+
+	@font-face {
+		font-family: 'wsocial';
+		src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.eot?buildTime=1455143158);
+		src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.eot?buildTime=1455143158#iefix) format('embedded-opentype'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.woff?buildTime=1455143158) format('woff'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.ttf?buildTime=1455143158) format('truetype'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.svg?buildTime=1455143158#wsocial) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	/* Hack to smooth out font rendering on Chrome for Windows */
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		@font-face {
+			font-family: 'wsocial';
+			src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.svg?buildTime=1455143158#wsocial) format('svg');
+		}
+	}
+</style>
